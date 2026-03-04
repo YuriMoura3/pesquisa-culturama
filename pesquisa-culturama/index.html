@@ -132,8 +132,34 @@
 
                 <label for="favoriteColor">Cor Favorita:</label>
                 <input type="color" id="favoriteColor" name="userFavoriteColor">
-            </fieldset>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Opiniões</legend>
+                <p>O que você pensa sobre o meu serviço?</p>
+                <input type="radio" name="satisfaction" id="excellent">
+                <label for="excellent">Excelente</label><br>
+                <input type="radio" name="satisfaction" id="good">
+                <label for="good">Boa</label><br>
+                <input type="radio" name="satisfaction" id="regular">
+                <label for="regular">Regular</label><br>
+                <input type="radio" name="satisfaction" id="bad">
+                <label for="bad">Ruim</label><br><br>
+
+                <label for="comments">Comentário:</label><br>
+                <textarea id="comments" name="userComments" rows="4" cols="50" placeholder="Escreva aqui..."></textarea>
+                </fieldset> <br>
+
+                <fieldset>
+                    <legend>Confirmações</legend>
+                    <input type="checkbox" name="confirmation" id="confirmation" required>
+                    <label for="confirmation">Eu aceito participar da pesquisa</label>
+                    <input type="checkbox" name="userGetResult" id="getResult">
+                    <label for="getResult">Desejo receber o resultado por e-mail</label>
+                </fieldset>
+
             <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </form>
     </section>
 </body>
