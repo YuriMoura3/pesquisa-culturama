@@ -85,11 +85,11 @@ input[type="color"]{
 }
 
 input:invalid, select:invalid, textarea:invalid{
-    border-color: red;
+    border: 2px solid red;
 }
 
 input:valid, select:valid, textarea:valid{
-    border-color: green;
+    border: 2px solid green;
 }
 
 button{
@@ -102,9 +102,11 @@ button{
 }
 button[type="submit"]:hover{
     color: #ffffff;
+    font-weight: bold;
     background-color: green;
 }
 button[type="reset"]:hover{
     color: #ffffff;
-    background-color: red;
+    font-weight: bold;
+    background-color: FireBrick;
 }
