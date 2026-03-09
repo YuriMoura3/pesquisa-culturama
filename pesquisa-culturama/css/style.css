@@ -110,3 +110,12 @@ button[type="reset"]:hover{
     font-weight: bold;
     background-color: FireBrick;
 }
+
+.validaForm{
+    color: green;
+    
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
