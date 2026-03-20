@@ -1,12 +1,22 @@
+:root{
+  --cor-texto: #333333;
+  --cor-fundo: #f9f9f9;
+}
+.theme-high-contrast {
+  --cor-texto: #000000;
+  --cor-fundo: #ffffff;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 100%;
 }
 
 body {
   font-family: "work sans", sans-serif;
-  background-color: #f9f9f9;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
 }
 
 main {
@@ -42,7 +52,7 @@ fieldset {
 
 legend {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1rem;
   padding: 0 10px;
 }
 
